@@ -1,0 +1,45 @@
+body{
+  background-color: #00004d;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+}
+.heading{
+  color:#ffffb3;
+  margin: 0 5%;
+  font-size: 60px;
+
+
+}
+.box{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.btn{
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+#red{
+background-color: red;
+}
+#yellow{
+  background-color: yellow;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
